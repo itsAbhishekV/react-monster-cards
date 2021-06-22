@@ -22,14 +22,14 @@ class App extends React.Component{
     render() {
 
         const { monster, searchField } = this.state;
-        const Filtered = monster.filter(monsters =>  monsters.name.toLowerCase().includes(searchField.toLowerCase()) )
+        const FilteredList = monster.filter(monsters =>  monsters.name.toLowerCase().includes(searchField.toLowerCase()) )
 
         return (
 
             <div className = "App">
                 <h1> Monsters Robolox </h1>
                 <Search placeholder = "Search Monsters" change = {items => this.setState( { searchField: items.target.value } )} />
-                <CardList monsters = { Filtered } />
+                <CardList monsters = { FilteredList } />
             </div>
 
         )
