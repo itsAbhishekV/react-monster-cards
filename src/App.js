@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// import { Search } from './components/search-components/search.jsx'
 import {CardList} from "./components/card-list-components/card-list.jsx"
 import { Search } from './components/search-components/search';
 

@@ -6,7 +6,7 @@
     padding: 10px;
     margin-bottom: 30px;
 }
-@media (max-width: 600px){
+@media (max-width: 500px) {
     .search{
         margin-left: 34%;
         width: 150px;
